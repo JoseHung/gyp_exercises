@@ -52,7 +52,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart}) => {
             borderRadius: '40px'
           }}
           height="76px"
-          value="search"
+          value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
           placeholder="Search Exercises"
           type="text"
